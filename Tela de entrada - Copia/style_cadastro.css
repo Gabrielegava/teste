@@ -1,0 +1,120 @@
+
+body{ 
+  background-color: rgb(134, 186, 235);
+  background-image: url("pata_fundo.png"); 
+}
+
+#content{ 
+  background-color: white;
+  padding:20px;
+  position: center;
+  top: 30%;
+  border-radius: 20px;
+  width: 80%;
+  height: 85%;
+  margin-top: 2%;
+  margin-left: 9%;
+  text-align: center;
+  font-size: 18px;
+} 
+
+.logo{
+  margin-left: auto;
+  max-width: 250%;
+}
+
+.name{
+  height: 66.25%;
+  margin-top: 7%;
+  margin-left: -55%;
+  border-radius: 25px;
+  border-color: rgb(134, 186, 235);
+  border-style: double;
+  padding-left: 4%;
+}
+
+.name1{
+  height: 66%;
+  margin-top: 7%;
+  margin-left: 103%;
+  border-radius: 25px;
+  border-color: rgb(134, 186, 235);
+  border-style: double;
+  padding-left: 1%;
+}
+
+.check{
+  margin-left: 39%;
+  
+}
+
+.form-check{
+  font-family: Bahnschrift Light;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;   /* quadrado */
+  margin-left: 30px;
+  margin-top: 5%;
+  color: grey;
+}
+
+.checktext{
+  font-family: Bahnschrift Light;
+  font-size: 20px;
+  width: 50%;
+  height: 20%;   /* quadrado */
+  margin-left: 70%; 
+  margin-top: 5%;
+  color: grey;
+}
+
+form{ 
+  margin-left: 270px; 
+  font-family: arial; 
+  line-height:40px; 
+  font-weight: bold; 
+  width:33%; 
+  height:17%;  
+  margin-top:-5%;    
+} 
+
+Button{ 
+  width:15%;
+  height: 10%;
+  background: #ED7E32;
+  border-radius: 25px;
+  border: none;
+  font-family: Bahnschrift Light;
+  font-size: 25px;
+  color: #ffffff; 
+  margin-top: 4%;
+  margin-left: 4%;
+  position: absolute;
+  cursor: pointer;
+} 
+
+.enter{
+  font-family: Bahnschrift Light;
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: auto;
+}
+
+input{
+  font-family: Bahnschrift Light;
+  font-size: 20px;
+}
+
+.blocoesq{
+  margin-top: 18%;
+}
+
+.blocodir{
+  margin-top: -75.25%;
+ }
+
+input{
+  width: 140%;
+  height: 65%;
+}

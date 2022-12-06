@@ -1,0 +1,173 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coloque para adoção</title>
+  <style>
+    #content {
+      background-color: white;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    .btnseta {
+      width: 4%;
+      height: 7%;
+      margin-top: 1%;
+      margin-left: -92%;
+      background-color: #4B8DA5;
+      font-size: 36px;
+      color: #fff;
+      border: none;
+      border-radius: 9px;
+    }
+
+    .logo {
+      margin-left: auto;
+      max-width: 250%;
+      margin-top: -5%;
+    }
+
+    .name {
+      margin-top: 1%;
+      margin-left: -40%;
+      border-radius: 25px;
+      border-color: rgb(134, 186, 235);
+      border-style: double;
+      width: 40%;
+      height: 10%;
+      padding-left: 2%;
+
+    }
+
+    form {
+      margin-top: 2%;
+      margin-left: 150px;
+      font-family: arial;
+      line-height: 40px;
+      font-weight: bold;
+      width: 500px;
+      height: 130px;
+
+    }
+
+    .button {
+      width: 20%;
+      height: 10%;
+      background: #ED7E32;
+      border-radius: 40px;
+      margin-left: auto;
+      margin-top: 2%;
+      border: none;
+      font-family: Bahnschrift Light;
+      font-size: 25px;
+      color: #ffffff;
+
+    }
+
+    .btn_img {
+      width: 33.5%;
+      height: 50%;
+      border-color: rgb(134, 186, 235);
+      border-style: double;
+      border-radius: 15%;
+      font-family: Bahnschrift Light;
+      font-size: 100%;
+      margin-top: -46rem;
+      margin-left: 45%;
+
+    }
+
+    .enter {
+      font-family: Bahnschrift Light;
+      font-size: 20px;
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    .radio,
+    .radio {
+      width: 3%;
+      height: 3%;
+      color: #ED7E32;
+      margin-left: -40%;
+      margin-top: 2%;
+    }
+
+    input,
+    span {
+      font-family: Bahnschrift Light;
+      font-size: 20px;
+    }
+
+    .popup .show {
+      visibility: visible;
+      -webkit-animation: fadeIn 1s;
+      animation: fadeIn 1s
+    }
+  </style>
+</head>
+
+<body>
+
+  <script>
+    function myFunction() {
+      confirm("Deseja Continuar?");
+
+    } </script>
+
+  <div id="content">
+    <button class="btnseta" onclick="location.href='telaentrada.html'" type="button">⟵</button>
+    <div class="logo">
+      <img src="aaaa.png">
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="inputSexo"></label>
+        <input class="radio" type="radio" name="sexo" value="0"> <span>Macho</span>
+        <input class="radio" type="radio" name="sexo" value="1"> <span>Fêmea</span>
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="inputName"></label>
+        <input class="name" type="text" id="porte" aria-label="   Porte" placeholder="  Porte">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="inputEmail"></label>
+        <input type="text" class="name" id="raca" aria-label="Raça" placeholder="  Raça">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="inputTelephone"></label>
+      <input type="text" class="name" id="Idade" placeholder="  Idade">
+    </div>
+
+
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputPassword"></label>
+        <input type="text" class="name" id="senha" aria-label="Descrição" placeholder="  Descrição">
+      </div>
+
+
+      <div class="form-group">
+        <button class="btn_img" onclick="location.href='#'" type="sobmit">Adicionar imagem</button>
+      </div>
+
+      <button class="button" onclick="myFunction()">Publicar</button>
+
+      <script>
+        function myFunction() {
+          confirm("Press a button!");
+        }
+      </script>
+
+
+</body>
+
+</html>

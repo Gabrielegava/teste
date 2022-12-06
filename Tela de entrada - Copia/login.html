@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazer Login no InstaPet</title>
+    <link rel="stylesheet" href="style_login.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div>
+    <div class="box-parent-login">
+        <div class="logo">
+            <a href="telaentrada.php">
+                <img src="aaaa.png">    
+            </a>
+        </div>
+       
+       
+        <form action="login.php" method="POST" id="form" onsubmit = "return validation()">
+     
+            <div class="userLogin">
+                <label for="userLogin"></label>
+                <input class="user_Login" name="l" id="l" type="text" aria-label="Usuário" placeholder="Usuário" required> 
+            </div>
+
+            <div class="userpassword">
+                <label for="userPassword"></label>
+                <input class="user_Password" name="s" id="s" type="password" aria-label="Senha" placeholder="Senha" required> 
+            </div>
+
+            <p><a href="#" class="forgot_password">Esqueci minha senha</a></p>
+
+            <p>
+                <button class="button" class="botao" onclick="validar()">
+                    Enviar
+                </button> 
+
+            
+                 </p>
+            <p class="txtCreateUser">Não possui um usuário no InstaPet?
+                <a href="tela cadastro.php"> Cadastre-se agora</a>
+            </p>
+
+    </form>
+</div>
+</div>
+
+
+</body>
+</html>

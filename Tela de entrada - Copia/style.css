@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+ 
+}
+
+input {
+  background: url('lupa.svg') no-repeat top left;
+  padding: 0.8%;
+  /* Largura */
+  width: 25%;
+  /* Comprimento*/
+  font-size: 20px;
+  margin-top: 3%;
+  margin-left: 42%;
+  border: 1px solid;
+  border-color: #4B8DA5;
+  border-radius: 20px;
+  background-position-x: 420px;
+  background-position-y: 10px;
+
+
+}
+
+.logo {
+  margin: -5% 0% 0% 8%;
+
+}
+
+.logo img {
+  width: 30%;
+  height: 90%;
+  margin-top: -1%;
+  margin-left: -5%;
+}
+
+.centro {
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 5%;
+  height: 50%;
+  margin-left: 80%;
+  margin-top: -5%;
+  background-color: #e8eef3;
+  border: none;
+  cursor: pointer;
+
+}
+
+
+.btnfuncao {
+  display: inline;/*ALINHAMENTO DO CONTEÚDO*/
+  justify-content: center;/*ESPAÇO ENTRE O CONTEÚDO*/
+  vertical-align: middle;/*ALINHAMENTO VERTICAL*/
+  width: 100%;
+  margin-left: 8%;
+  margin-top: 1%;
+
+}
+
+img {
+  /*TAMANHO DAS IMAGENS DO BOTÃO*/ 
+  width: 85%;
+  height: 85%;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 1.5rem;
+  padding-left: 20%;
+}
+
+.card {
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 30%;
+  margin-left: 35%;
+  width: 420px;
+  height: 150%;
+  border-radius: 33px;
+  display: block;
+  text-align: center;
+  box-shadow: 2px 3px 10px #000 ; /* Sombra */
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.card1 {
+  width: 100%;
+  margin-left: -8%;
+
+}
+
+.card1 h1{
+ 
+  display: flex;
+  justify-content: center;
+ margin-left: 50px;
+}
+
+.card1 p{
+ 
+  display: flex;
+  justify-content: center;
+ margin-left: 50px;
+}
+
+
+
+.img {
+  display: inline-block;
+ 
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: #ED7E32;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-left: 2%;
+  margin-top: 5%;
+  width: 65%;
+  border-radius: 30px;
+
+}
+
+.card button:hover {
+  opacity: 0.8;
+}
+
+.circle {
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin-left: 60px;
+  margin-top: 40px;
+  overflow: hidden;
+  position: relative;
+  border: #000000 1px solid;
+
+}
+
+.circle img {
+  position: center;
+  bottom: 0;
+  width: 90%;
+  height: 95%;
+  left: -1%;
+  margin-top: 2.5%;
+  
+
+}
+
+h3{
+  line-height: 3%;
+}
+
+.whats{
+  height: 67.5%;
+  width: 67.5%;
+  margin-top: 14%;
+  margin-left: -35%;
+}
+
+header{
+  background-color: #e8eef3;
+  width: 100%;
+  height: 15%;
+}
